@@ -1,3 +1,3 @@
 export const FriendList = () => {
-    return null;
+    return ;
 };
