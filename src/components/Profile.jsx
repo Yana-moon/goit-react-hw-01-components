@@ -2,7 +2,7 @@ import { ProfileDiv, DescriptionDiv, ListDiv } from './Profile.styled.js';
 import PropTypes from 'prop-types';
 
 export const Profile = ({
-    user: {
+    profile: {
     avatar, 
     username, 
     tag, 
