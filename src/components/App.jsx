@@ -1,11 +1,11 @@
 import { Profile } from './Profile';
-import user from '../data/user.json';
+import user from '/Users/yanak/Desktop/GOIT/GoIT/GitHub/goit-react-hw-01-components/src/data/user.json';
 import { Statistics } from './Statistics';
-import data from '../data/data.json';
+import data from '/Users/yanak/Desktop/GOIT/GoIT/GitHub/goit-react-hw-01-components/src/data/data.json';
 import { FriendList } from './FriendList';
-import friends from '../data/friends.json';
+import friends from '/Users/yanak/Desktop/GOIT/GoIT/GitHub/goit-react-hw-01-components/src/data/friends.json';
 import { Transactions } from './Transactions';
-import transactions from '../data/transactions.json';
+import transactions from '/Users/yanak/Desktop/GOIT/GoIT/GitHub/goit-react-hw-01-components/src/data/transactions.json';
 
 export const App = () => {
   return (
@@ -17,3 +17,5 @@ export const App = () => {
     </div>
   );
 };
+
+
