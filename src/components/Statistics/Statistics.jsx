@@ -1,3 +1,11 @@
+
+
+
 export const Statistics = () => {
-    return ;
-};
+    return 
+        //<>
+        //<span className="label">{label}</span>
+        //<span className="percentage">{percentage}%</span>
+        //</>
+    }
+
