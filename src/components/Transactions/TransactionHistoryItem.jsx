@@ -6,7 +6,7 @@ TransactionsType,
 
 export const TransactionHistoryItem = ({item}) => {
     return (
-    <TransactionsTable key={item.id}>
+    <TransactionsTable>
         <TransactionsType>{item.type}</TransactionsType>
         <td>{item.amount}</td>
         <td>{item.currency}</td>

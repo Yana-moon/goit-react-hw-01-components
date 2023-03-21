@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const FriendListItem = ({ friend }) => {
     return (
-    <FriendsListLi key={friend.id}>
+    <FriendsListLi>
         {friend.isOnline ? 
         (
         <FriendsStatusOnline></FriendsStatusOnline>
