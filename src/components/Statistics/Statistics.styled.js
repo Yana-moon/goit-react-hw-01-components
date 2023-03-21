@@ -34,6 +34,7 @@ padding-bottom:20px;
 background-color: ${getRandomHexColor};
 font-weight:500;
 border-radius:3px;
+color: #FFFFFF;
 `;
 
 function getRandomHexColor() {
